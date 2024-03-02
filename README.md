@@ -1,13 +1,11 @@
 # personal-portfolio
 This repository contains my personal portfolio. 
 
-# personal-portfolio
-
 ### REPOSITORY DESCRIPTION
 
 REPOSITORY NAME: portfolio-rebuild
 
-This repository is created for Assignment 4: Portfolio Rebuild
+This repository is created for Assignment 8: Final Portfolio
 It contains and index.html, script.js, style.css accordingly.
 
 
@@ -15,7 +13,7 @@ It contains and index.html, script.js, style.css accordingly.
 ![proof of work](image.png)
 
 ### RELATED LINKS
-[Github repository:](https://github.com/Prince-grandev/personal-portfolio)
+[Github repository:](https://github.com/Prince-grandev)
 
 [Github application:](https://prince-grandev.github.io/personal-portfolio/)
 
