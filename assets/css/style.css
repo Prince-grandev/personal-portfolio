@@ -3,8 +3,8 @@
 :root {
     --color-body: #2b2b2b;
     --color-heading: #2b2b2be6;
-    --color-base: #dac2a0;
-    --color-base2: #e2dbcf;
+    --color-base: #f9f7f5;
+    --color-base2: #ebe7dc;
     --color-brand: #f48304;
     --color-brand2: #f48304;
     --sidbar-width: 240px;
@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--color-base2);
+    background-color: var(--color-base);
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
 }
@@ -37,6 +37,10 @@ img {
     width: 100%;
 }
 
+.thumbnail {
+    width: 50px;
+    padding: 0px;
+}
 .text-brand {
     color: var(--color-brand);
 }
@@ -77,13 +81,13 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--color-base);
+    background-color: var(--color-base2);
 }
 
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--color-body);
 }
 
 .navbar .nav-link:hover {
@@ -98,7 +102,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/Background\ Wallpaper.jpg);
+        background-color: var(--color-base2);
         background-size: cover;
         background-position: center;
     }
