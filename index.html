@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/aos.css">
@@ -12,74 +15,159 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <h4>Prince's Profile</h4>
-        </div>
 
-        <nav>
-            <a href="">Home</a>
-            <a href="#Work">Work</a>
-            <a href="#aboutme">About me</a>
-            <a href="#contactus">Contact</a>
-            <a href="">Resume</a>
-        </nav>
-    </header>
-    
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">PRINCE OBULOR</span>
+                <img src="./assets/images/Profile picture.png" class="d-none d-lg-block rounded-circle" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 
-    <section id="Hero Section" >
-        
-        <img src="./assets/images/pexels-pixabay-262367.jpg">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
 
-    </section>
-
-
-
-    <div id="aboutme" class="container">
-        <div id="leftcontainer" class="flex_item">
-            <img id="bio-image"
-            src="https://media.licdn.com/dms/image/D5603AQHxVLaF7ynGNQ/profile-displayphoto-shrink_800_800/0/1675215499127?e=1712188800&v=beta&t=MiR9CCi3cJgAUUUKqXybKrE1vPQsPVMub9AlEwAbP_w"
-            alt="profile picture">
-        </div>
-        
-        <div id="rightcontainer" class="flex_item">
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit recusandae quae, dolore rerum sunt,
-                impedit quia a beatae laudantium ab, quasi voluptatum tempora laboriosam incidunt similique? Maiores
-                nisi expedita culpa.</p>
-        </div>
-       
-    </div>
-    
-
-    <div id="Work" class="container">
-        <div id="leftcontainer" class="flex_item">
-            <h1>Projects</h1>
-        </div>
-        
-        <div id="rightcontainer" class="flex_item">   
-            <div>
-                <img src="https://images.pexels.com/photos/39584/censorship-limitations-freedom-of-expression-restricted-39584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                <h2>Password Generator</h2>
-                <p>Created a Unique system to generate passwords from a series of prompts provided by the user</p>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+    <!-- //NAVIGATION BAR -->
 
-    <div id="contactus" class="container">
-        <div id="leftcontainer" class="flex_item">
-            <h1> Contact <br> Info</h1>
-        </div>
-        
-        <div id="bottomlink" class="flex_item">
-            <a href="">289.489.6254</a>
-            <a href="">princeobulor20@gmail.com</a>
-            <a href="https://github.com/Prince-grandev/personal-portfolio">GitHub</a>
-            <a href="https://www.linkedin.com/feed/">LinkedIn</a>
-        </div>
-       
-        
-    </div>
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
 
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">WEB
+                                DEVELOPER</span> <br> FROM OSHAWA, ON</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Prince Obulor, and i
+                            specialise in "Web Engineering". Its a term i coined that represents the design, development
+                            and deployment of intelligent websites.</p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#portfolio" class="btn btn-brand me-3">Explore My Work</a>
+                            <a href="https://github.com/Prince-grandev?tab=repositories">
+                                <img class="thumbnail" src="./assets/images/github-mark.png" alt="Github Logo">
+                            </a>
+                            <a href="https://www.linkedin.com/in/prince-obulor-6644b8134/">
+                                <img class="thumbnail" src="./assets/images/LI-In-Bug.png" alt="Linkedin Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">PORTFOLIO</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <!-- Password Generator -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Paswword Lock.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4><a href="https://prince-grandev.github.io/password-generator/">Password
+                                        Generator</a></h4>
+                                <p>Novel application that generates a password for the user based on preceeding prompts
+                                    via window object</p>
+                                <p>HTML, CSS, Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Task Board Manager -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Task Board.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4><a href="https://prince-grandev.github.io/Task-board/">Task Board Manager</a></h4>
+                                <p>Web application for organising your daily tasks</p>
+                                <p>HTML, CSS, Jquery, API's</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Code Quiz Project-->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Puzzle.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4><a href="https://prince-grandev.github.io/code-quiz/">Code Quiz</a></h4>
+                                <p>Leading online quiz platform. Features include: Responsive design, Leaderboard,
+                                    Countdown timer.</p>
+                                <p>HTML, CSS, Javascript, </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Financial Calaculator -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Online Calculator.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4><a href="https://prince-grandev.github.io/Console-Finances/">Financial Calaculator</a></h4>
+                                <p>Intelligent application made using Javascript programming to sort out a 2D arrays,
+                                    make internal computations and display the results on the webpage</p>
+                                <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- //PORTFOLIO -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 </body>
 
