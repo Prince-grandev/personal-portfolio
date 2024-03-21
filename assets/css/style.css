@@ -49,6 +49,13 @@ img {
     background-color: var(--color-base);
 }
 
+.tools {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f48304;
+    width:;
+}
 .full-height {
     min-height: 100vh;
     height: 100%;
