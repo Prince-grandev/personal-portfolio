@@ -11,7 +11,7 @@ It contains and index.html, script.js, style.css accordingly.
 
 
 ### SCREENSHOT
-![Personal Portfolio screenshot](screenshot.png)
+![Personal Portfolio screenshot](./assets/images/image.png)
 
 ### RELATED LINKS
 [Github repository:](https://github.com/Prince-grandev)
